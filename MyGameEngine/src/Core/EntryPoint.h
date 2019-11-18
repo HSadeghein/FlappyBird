@@ -1,7 +1,6 @@
 #pragma once
 #ifdef IMMORTAL_PLATFORM_WINDOWS
 
-
 extern Immortal::Application* Immortal::CreateApplication();
 int main(int argc, char** argv)
 {
