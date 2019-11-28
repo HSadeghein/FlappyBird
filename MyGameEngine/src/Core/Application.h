@@ -1,8 +1,9 @@
 #pragma once
+#include "pch.h"
 #include "Core.h"
 #include "Log.h"
 #include "Window.h"
-#include <GLFW/glfw3.h>
+
 namespace Immortal
 {
 	class IMMORTAL_API Application
@@ -12,8 +13,9 @@ namespace Immortal
 		virtual ~Application();
 
 		void Run();
-	private:
+	protected:
 		int Initialize();
+		void Terminate();
 		std::unique_ptr<Window> mp_Window;
 
 		

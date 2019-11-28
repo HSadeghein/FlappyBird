@@ -18,9 +18,6 @@
     <ClInclude Include="src\Core\EntryPoint.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="src\Core\Event\Event.h">
-      <Filter>Core\Event</Filter>
-    </ClInclude>
     <ClInclude Include="src\Core\Event\IEvent.h">
       <Filter>Core\Event</Filter>
     </ClInclude>
@@ -37,6 +34,9 @@
       <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="src\Immortal.h" />
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\Core\Helper\helper.h" />
+    <ClInclude Include="src\Core\Event\Events.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Core\Application.cpp">
@@ -48,5 +48,6 @@
     <ClCompile Include="src\Core\Window.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="src\pch.cpp" />
   </ItemGroup>
 </Project>
